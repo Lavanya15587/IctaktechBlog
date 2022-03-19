@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">All Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Arun\Desktop\test-output\IctakTechBlog2\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods, 1 failed,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods failed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-All_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminLogin" class="method navigator-link" hash-for-method="VerifyTotalElementsLoginPage">VerifyTotalElementsLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-All_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods passed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods passed suite-All_Test_Suite"> (show)</a> <!-- show-methods passed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.AddRemoveCategory" class="method navigator-link" hash-for-method="AddCategoryAlreadyExists">AddCategoryAlreadyExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.AddRemoveCategory" class="method navigator-link" hash-for-method="AddCategoryInVaildData">AddCategoryInVaildData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.AddRemoveCategory" class="method navigator-link" hash-for-method="AddCategoryValidData">AddCategoryValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.AddRemoveCategory" class="method navigator-link" hash-for-method="RemoveCategory">RemoveCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminAddNewPost" class="method navigator-link" hash-for-method="VerifyAddnewPost">VerifyAddnewPost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminAddNewPost" class="method navigator-link" hash-for-method="VerifyAddnewPostWithBlanKdATA">VerifyAddnewPostWithBlanKdATA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminLogin" class="method navigator-link" hash-for-method="VerifyBlankUsernamePassword">VerifyBlankUsernamePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminAllPostPage" class="method navigator-link" hash-for-method="VerifyDeletePostInAllPostpage">VerifyDeletePostInAllPostpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminAddNewPost" class="method navigator-link" hash-for-method="VerifyDeletePostInHomepage">VerifyDeletePostInHomepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminMyPostPage" class="method navigator-link" hash-for-method="VerifyDeletePostInMyPostpage">VerifyDeletePostInMyPostpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminAllPostPage" class="method navigator-link" hash-for-method="VerifyEditNewPostInAllPostpage">VerifyEditNewPostInAllPostpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminAllPostPage" class="method navigator-link" hash-for-method="VerifyEditNewPostInAllPostpageINVALIDATA">VerifyEditNewPostInAllPostpageINVALIDATA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminAddNewPost" class="method navigator-link" hash-for-method="VerifyEditNewPostInHomepage">VerifyEditNewPostInHomepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminAddNewPost" class="method navigator-link" hash-for-method="VerifyEditNewPostInHomepageInvalidData">VerifyEditNewPostInHomepageInvalidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminMyPostPage" class="method navigator-link" hash-for-method="VerifyEditNewPostInMyPostpage">VerifyEditNewPostInMyPostpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminMyPostPage" class="method navigator-link" hash-for-method="VerifyEditNewPostInMyPostpageINVALIDATA">VerifyEditNewPostInMyPostpageINVALIDATA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminLogin" class="method navigator-link" hash-for-method="VerifyInvalidUsernamePassword">VerifyInvalidUsernamePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminLogin" class="method navigator-link" hash-for-method="VerifyInvalidUsernameValidPassword">VerifyInvalidUsernameValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminLogin" class="method navigator-link" hash-for-method="VerifyLoginAsAdmin">VerifyLoginAsAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestPostApprovalAndReject" class="method navigator-link" hash-for-method="VerifyLoginAsUser">VerifyLoginAsUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestPostApprovalAndReject" class="method navigator-link" hash-for-method="VerifyPostApproval">VerifyPostApproval</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestPostApprovalAndReject" class="method navigator-link" hash-for-method="VerifyPostReject">VerifyPostReject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminAddNewPost" class="method navigator-link" hash-for-method="VerifyTotalElements">VerifyTotalElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Scripts.Admin.TestAdminLogin" class="method navigator-link" hash-for-method="VerifyValidUsernameInvalidPassword">VerifyValidUsernameInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Scripts.Admin.TestAdminLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTotalElementsLoginPage">
+                  </a> <!-- VerifyTotalElementsLoginPage -->
+                  <span class="method-name">VerifyTotalElementsLoginPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [2] but found [3]
+	at Scripts.Admin.TestAdminLogin.VerifyTotalElementsLoginPage(TestAdminLogin.java:181)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-failed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Scripts.Admin.TestAdminAddNewPost</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddnewPost">
+                  </a> <!-- VerifyAddnewPost -->
+                  <span class="method-name">VerifyAddnewPost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddnewPostWithBlanKdATA">
+                  </a> <!-- VerifyAddnewPostWithBlanKdATA -->
+                  <span class="method-name">VerifyAddnewPostWithBlanKdATA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDeletePostInHomepage">
+                  </a> <!-- VerifyDeletePostInHomepage -->
+                  <span class="method-name">VerifyDeletePostInHomepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEditNewPostInHomepage">
+                  </a> <!-- VerifyEditNewPostInHomepage -->
+                  <span class="method-name">VerifyEditNewPostInHomepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEditNewPostInHomepageInvalidData">
+                  </a> <!-- VerifyEditNewPostInHomepageInvalidData -->
+                  <span class="method-name">VerifyEditNewPostInHomepageInvalidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTotalElements">
+                  </a> <!-- VerifyTotalElements -->
+                  <span class="method-name">VerifyTotalElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Scripts.Admin.TestAdminLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBlankUsernamePassword">
+                  </a> <!-- VerifyBlankUsernamePassword -->
+                  <span class="method-name">VerifyBlankUsernamePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInvalidUsernamePassword">
+                  </a> <!-- VerifyInvalidUsernamePassword -->
+                  <span class="method-name">VerifyInvalidUsernamePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInvalidUsernameValidPassword">
+                  </a> <!-- VerifyInvalidUsernameValidPassword -->
+                  <span class="method-name">VerifyInvalidUsernameValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginAsAdmin">
+                  </a> <!-- VerifyLoginAsAdmin -->
+                  <span class="method-name">VerifyLoginAsAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyValidUsernameInvalidPassword">
+                  </a> <!-- VerifyValidUsernameInvalidPassword -->
+                  <span class="method-name">VerifyValidUsernameInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Scripts.Admin.TestAdminAllPostPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDeletePostInAllPostpage">
+                  </a> <!-- VerifyDeletePostInAllPostpage -->
+                  <span class="method-name">VerifyDeletePostInAllPostpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEditNewPostInAllPostpage">
+                  </a> <!-- VerifyEditNewPostInAllPostpage -->
+                  <span class="method-name">VerifyEditNewPostInAllPostpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEditNewPostInAllPostpageINVALIDATA">
+                  </a> <!-- VerifyEditNewPostInAllPostpageINVALIDATA -->
+                  <span class="method-name">VerifyEditNewPostInAllPostpageINVALIDATA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Scripts.Admin.TestAdminMyPostPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDeletePostInMyPostpage">
+                  </a> <!-- VerifyDeletePostInMyPostpage -->
+                  <span class="method-name">VerifyDeletePostInMyPostpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEditNewPostInMyPostpage">
+                  </a> <!-- VerifyEditNewPostInMyPostpage -->
+                  <span class="method-name">VerifyEditNewPostInMyPostpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEditNewPostInMyPostpageINVALIDATA">
+                  </a> <!-- VerifyEditNewPostInMyPostpageINVALIDATA -->
+                  <span class="method-name">VerifyEditNewPostInMyPostpageINVALIDATA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Scripts.Admin.TestPostApprovalAndReject</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginAsUser">
+                  </a> <!-- VerifyLoginAsUser -->
+                  <span class="method-name">VerifyLoginAsUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPostApproval">
+                  </a> <!-- VerifyPostApproval -->
+                  <span class="method-name">VerifyPostApproval</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPostReject">
+                  </a> <!-- VerifyPostReject -->
+                  <span class="method-name">VerifyPostReject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Scripts.Admin.AddRemoveCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddCategoryAlreadyExists">
+                  </a> <!-- AddCategoryAlreadyExists -->
+                  <span class="method-name">AddCategoryAlreadyExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddCategoryInVaildData">
+                  </a> <!-- AddCategoryInVaildData -->
+                  <span class="method-name">AddCategoryInVaildData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddCategoryValidData">
+                  </a> <!-- AddCategoryValidData -->
+                  <span class="method-name">AddCategoryValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RemoveCategory">
+                  </a> <!-- RemoveCategory -->
+                  <span class="method-name">RemoveCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+        </div> <!-- panel All_Test_Suite -->
+        <div panel-name="test-xml-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Arun\Desktop\test-output\IctakTechBlog2\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Scripts.Admin.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Scripts.Admin.TestAdminLogin&quot;/&gt;
+      &lt;class name=&quot;Scripts.Admin.TestAdminAddNewPost&quot;/&gt;
+      &lt;class name=&quot;Scripts.Admin.TestAdminAllPostPage&quot;/&gt;
+      &lt;class name=&quot;Scripts.Admin.TestAdminMyPostPage&quot;/&gt;
+      &lt;class name=&quot;Scripts.Admin.TestPostApprovalAndReject&quot;/&gt;
+      &lt;class name=&quot;Scripts.Admin.AddRemoveCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite');
+function tableData_All_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyPostApproval')
+data.setCell(0, 2, 'Scripts.Admin.TestPostApprovalAndReject')
+data.setCell(0, 3, 14090);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddCategoryValidData')
+data.setCell(1, 2, 'Scripts.Admin.AddRemoveCategory')
+data.setCell(1, 3, 11868);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyEditNewPostInHomepage')
+data.setCell(2, 2, 'Scripts.Admin.TestAdminAddNewPost')
+data.setCell(2, 3, 8609);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyPostReject')
+data.setCell(3, 2, 'Scripts.Admin.TestPostApprovalAndReject')
+data.setCell(3, 3, 5923);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyEditNewPostInMyPostpageINVALIDATA')
+data.setCell(4, 2, 'Scripts.Admin.TestAdminMyPostPage')
+data.setCell(4, 3, 5781);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyEditNewPostInAllPostpageINVALIDATA')
+data.setCell(5, 2, 'Scripts.Admin.TestAdminAllPostPage')
+data.setCell(5, 3, 5226);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyEditNewPostInMyPostpage')
+data.setCell(6, 2, 'Scripts.Admin.TestAdminMyPostPage')
+data.setCell(6, 3, 4877);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyEditNewPostInHomepageInvalidData')
+data.setCell(7, 2, 'Scripts.Admin.TestAdminAddNewPost')
+data.setCell(7, 3, 4533);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyAddnewPostWithBlanKdATA')
+data.setCell(8, 2, 'Scripts.Admin.TestAdminAddNewPost')
+data.setCell(8, 3, 3883);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyInvalidUsernamePassword')
+data.setCell(9, 2, 'Scripts.Admin.TestAdminLogin')
+data.setCell(9, 3, 3649);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyDeletePostInAllPostpage')
+data.setCell(10, 2, 'Scripts.Admin.TestAdminAllPostPage')
+data.setCell(10, 3, 3378);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifyDeletePostInHomepage')
+data.setCell(11, 2, 'Scripts.Admin.TestAdminAddNewPost')
+data.setCell(11, 3, 3351);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'AddCategoryInVaildData')
+data.setCell(12, 2, 'Scripts.Admin.AddRemoveCategory')
+data.setCell(12, 3, 3094);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'VerifyEditNewPostInAllPostpage')
+data.setCell(13, 2, 'Scripts.Admin.TestAdminAllPostPage')
+data.setCell(13, 3, 2976);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'VerifyAddnewPost')
+data.setCell(14, 2, 'Scripts.Admin.TestAdminAddNewPost')
+data.setCell(14, 3, 2502);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'VerifyLoginAsUser')
+data.setCell(15, 2, 'Scripts.Admin.TestPostApprovalAndReject')
+data.setCell(15, 3, 2226);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyLoginAsAdmin')
+data.setCell(16, 2, 'Scripts.Admin.TestAdminLogin')
+data.setCell(16, 3, 1931);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'VerifyValidUsernameInvalidPassword')
+data.setCell(17, 2, 'Scripts.Admin.TestAdminLogin')
+data.setCell(17, 3, 1745);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'VerifyInvalidUsernameValidPassword')
+data.setCell(18, 2, 'Scripts.Admin.TestAdminLogin')
+data.setCell(18, 3, 1711);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'AddCategoryAlreadyExists')
+data.setCell(19, 2, 'Scripts.Admin.AddRemoveCategory')
+data.setCell(19, 3, 1260);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'VerifyDeletePostInMyPostpage')
+data.setCell(20, 2, 'Scripts.Admin.TestAdminMyPostPage')
+data.setCell(20, 3, 1106);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'VerifyBlankUsernamePassword')
+data.setCell(21, 2, 'Scripts.Admin.TestAdminLogin')
+data.setCell(21, 3, 839);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'RemoveCategory')
+data.setCell(22, 2, 'Scripts.Admin.AddRemoveCategory')
+data.setCell(22, 3, 326);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'VerifyTotalElements')
+data.setCell(23, 2, 'Scripts.Admin.TestAdminAddNewPost')
+data.setCell(23, 3, 134);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'VerifyTotalElementsLoginPage')
+data.setCell(24, 2, 'Scripts.Admin.TestAdminLogin')
+data.setCell(24, 3, 76);
+window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-All_Test_Suite">
+              </div> <!-- times-div-All_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.Admin.TestAdminLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">onSetup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyInvalidUsernamePassword</span>
+                <span class="method-start">15499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyInvalidUsernameValidPassword</span>
+                <span class="method-start">19169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyValidUsernameInvalidPassword</span>
+                <span class="method-start">20917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyBlankUsernamePassword</span>
+                <span class="method-start">22668 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginAsAdmin</span>
+                <span class="method-start">23514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyTotalElementsLoginPage</span>
+                <span class="method-start">25454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">25538 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.Admin.TestAdminAddNewPost</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">onSetup(chrome)</span>
+                <span class="method-start">27779 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddnewPostWithBlanKdATA</span>
+                <span class="method-start">42113 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddnewPost</span>
+                <span class="method-start">45998 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyEditNewPostInHomepageInvalidData</span>
+                <span class="method-start">48527 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyEditNewPostInHomepage</span>
+                <span class="method-start">53062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyDeletePostInHomepage</span>
+                <span class="method-start">61681 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyTotalElements</span>
+                <span class="method-start">65036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">65172 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.Admin.TestAdminAllPostPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">onSetup(chrome)</span>
+                <span class="method-start">67353 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyEditNewPostInAllPostpageINVALIDATA</span>
+                <span class="method-start">78818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyEditNewPostInAllPostpage</span>
+                <span class="method-start">84048 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyDeletePostInAllPostpage</span>
+                <span class="method-start">87045 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">90425 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.Admin.TestAdminMyPostPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">onSetup(chrome)</span>
+                <span class="method-start">92704 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyEditNewPostInMyPostpage</span>
+                <span class="method-start">101942 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyEditNewPostInMyPostpageINVALIDATA</span>
+                <span class="method-start">106830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyDeletePostInMyPostpage</span>
+                <span class="method-start">112613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">113721 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.Admin.TestPostApprovalAndReject</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">onSetup(chrome)</span>
+                <span class="method-start">116143 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginAsUser</span>
+                <span class="method-start">128716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyPostApproval</span>
+                <span class="method-start">130944 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyPostReject</span>
+                <span class="method-start">145036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">150963 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.Admin.AddRemoveCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">onSetup(chrome)</span>
+                <span class="method-start">153910 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AddCategoryValidData</span>
+                <span class="method-start">167240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddCategoryInVaildData</span>
+                <span class="method-start">179109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddCategoryAlreadyExists</span>
+                <span class="method-start">182204 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RemoveCategory</span>
+                <span class="method-start">183468 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">183797 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">192802 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.Admin.TestPostApprovalAndReject</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">192803 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.Admin.TestAdminLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">192803 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.Admin.TestAdminMyPostPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">192803 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.Admin.TestAdminAddNewPost</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">192803 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.Admin.TestAdminAllPostPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">192803 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

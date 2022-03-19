@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test thread-count="5" name="Regression">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <!-- Admin Test Suite-->
+            <class name="Scripts.Admin.TestAdminLogin"/>
+            <class name="Scripts.Admin.TestAdminAddNewPost"/>
+            <class name="Scripts.Admin.TestAdminAllPostPage"/>
+            <class name="Scripts.Admin.TestAdminMyPostPage"/>
+            <class name="Scripts.Admin.TestPostApprovalAndReject"/>
+
+            <!--Trainer Test Suite-->
+            <class name="Scripts.Trainer.TestTrainerLogin"/>
+            <class name="Scripts.Trainer.TestTrainerDeleteMyPost"/>
+            <class name="Scripts.Trainer.TestTrainerNewPost"/>
+            <class name="Scripts.Trainer.TestTrainerEditMyPost"/>
+
+        </classes>
+    </test>
+</suite>

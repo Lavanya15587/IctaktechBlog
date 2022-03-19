@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="24" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-20T00:59:20 GST" name="All Test Suite" finished-at="2022-03-20T01:02:32 GST" duration-ms="192868">
+    <groups>
+    </groups>
+    <test started-at="2022-03-20T00:59:20 GST" name="Regression" finished-at="2022-03-20T01:02:32 GST" duration-ms="192868">
+      <class name="Scripts.Admin.AddRemoveCategory">
+        <test-method is-config="true" signature="onSetup(java.lang.String)[pri:0, instance:Scripts.Admin.AddRemoveCategory@5ef0d29e]" started-at="2022-03-20T01:01:54 GST" name="onSetup" finished-at="2022-03-20T01:02:07 GST" duration-ms="13329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="AddCategoryValidData()[pri:1, instance:Scripts.Admin.AddRemoveCategory@5ef0d29e]" started-at="2022-03-20T01:02:07 GST" name="AddCategoryValidData" finished-at="2022-03-20T01:02:19 GST" duration-ms="11868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCategoryValidData -->
+        <test-method signature="AddCategoryInVaildData()[pri:2, instance:Scripts.Admin.AddRemoveCategory@5ef0d29e]" started-at="2022-03-20T01:02:19 GST" name="AddCategoryInVaildData" finished-at="2022-03-20T01:02:22 GST" duration-ms="3094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCategoryInVaildData -->
+        <test-method signature="AddCategoryAlreadyExists()[pri:3, instance:Scripts.Admin.AddRemoveCategory@5ef0d29e]" started-at="2022-03-20T01:02:22 GST" name="AddCategoryAlreadyExists" finished-at="2022-03-20T01:02:23 GST" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCategoryAlreadyExists -->
+        <test-method signature="RemoveCategory()[pri:4, instance:Scripts.Admin.AddRemoveCategory@5ef0d29e]" started-at="2022-03-20T01:02:23 GST" name="RemoveCategory" finished-at="2022-03-20T01:02:23 GST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveCategory -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Scripts.Admin.AddRemoveCategory@5ef0d29e]" started-at="2022-03-20T01:02:23 GST" name="teardown" finished-at="2022-03-20T01:02:32 GST" duration-ms="9005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Scripts.Admin.AddRemoveCategory@5ef0d29e]" started-at="2022-03-20T01:02:32 GST" name="afterTest" finished-at="2022-03-20T01:02:32 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Scripts.Admin.AddRemoveCategory -->
+      <class name="Scripts.Admin.TestAdminLogin">
+        <test-method is-config="true" signature="onSetup(java.lang.String)[pri:0, instance:Scripts.Admin.TestAdminLogin@470a696f]" started-at="2022-03-20T00:59:20 GST" name="onSetup" finished-at="2022-03-20T00:59:35 GST" duration-ms="15464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="VerifyInvalidUsernamePassword()[pri:1, instance:Scripts.Admin.TestAdminLogin@470a696f]" started-at="2022-03-20T00:59:35 GST" name="VerifyInvalidUsernamePassword" finished-at="2022-03-20T00:59:39 GST" duration-ms="3649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUsernamePassword -->
+        <test-method signature="VerifyInvalidUsernameValidPassword()[pri:2, instance:Scripts.Admin.TestAdminLogin@470a696f]" started-at="2022-03-20T00:59:39 GST" name="VerifyInvalidUsernameValidPassword" finished-at="2022-03-20T00:59:41 GST" duration-ms="1711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUsernameValidPassword -->
+        <test-method signature="VerifyValidUsernameInvalidPassword()[pri:3, instance:Scripts.Admin.TestAdminLogin@470a696f]" started-at="2022-03-20T00:59:41 GST" name="VerifyValidUsernameInvalidPassword" finished-at="2022-03-20T00:59:42 GST" duration-ms="1745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidUsernameInvalidPassword -->
+        <test-method signature="VerifyBlankUsernamePassword()[pri:4, instance:Scripts.Admin.TestAdminLogin@470a696f]" started-at="2022-03-20T00:59:42 GST" name="VerifyBlankUsernamePassword" finished-at="2022-03-20T00:59:43 GST" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBlankUsernamePassword -->
+        <test-method signature="VerifyLoginAsAdmin()[pri:5, instance:Scripts.Admin.TestAdminLogin@470a696f]" started-at="2022-03-20T00:59:43 GST" name="VerifyLoginAsAdmin" finished-at="2022-03-20T00:59:45 GST" duration-ms="1931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginAsAdmin -->
+        <test-method signature="VerifyTotalElementsLoginPage()[pri:6, instance:Scripts.Admin.TestAdminLogin@470a696f]" started-at="2022-03-20T00:59:45 GST" name="VerifyTotalElementsLoginPage" finished-at="2022-03-20T00:59:45 GST" duration-ms="76" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [3]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at Scripts.Admin.TestAdminLogin.VerifyTotalElementsLoginPage(TestAdminLogin.java:181)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTotalElementsLoginPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Scripts.Admin.TestAdminLogin@470a696f]" started-at="2022-03-20T00:59:45 GST" name="teardown" finished-at="2022-03-20T00:59:47 GST" duration-ms="2241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Scripts.Admin.TestAdminLogin@470a696f]" started-at="2022-03-20T01:02:32 GST" name="afterTest" finished-at="2022-03-20T01:02:32 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Scripts.Admin.TestAdminLogin -->
+      <class name="Scripts.Admin.TestPostApprovalAndReject">
+        <test-method is-config="true" signature="onSetup(java.lang.String)[pri:0, instance:Scripts.Admin.TestPostApprovalAndReject@6ca0256d]" started-at="2022-03-20T01:01:16 GST" name="onSetup" finished-at="2022-03-20T01:01:28 GST" duration-ms="12572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="VerifyLoginAsUser()[pri:1, instance:Scripts.Admin.TestPostApprovalAndReject@6ca0256d]" started-at="2022-03-20T01:01:28 GST" name="VerifyLoginAsUser" finished-at="2022-03-20T01:01:31 GST" duration-ms="2226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginAsUser -->
+        <test-method signature="VerifyPostApproval()[pri:2, instance:Scripts.Admin.TestPostApprovalAndReject@6ca0256d]" started-at="2022-03-20T01:01:31 GST" name="VerifyPostApproval" finished-at="2022-03-20T01:01:45 GST" duration-ms="14090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPostApproval -->
+        <test-method signature="VerifyPostReject()[pri:3, instance:Scripts.Admin.TestPostApprovalAndReject@6ca0256d]" started-at="2022-03-20T01:01:45 GST" name="VerifyPostReject" finished-at="2022-03-20T01:01:51 GST" duration-ms="5923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPostReject -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Scripts.Admin.TestPostApprovalAndReject@6ca0256d]" started-at="2022-03-20T01:01:51 GST" name="teardown" finished-at="2022-03-20T01:01:54 GST" duration-ms="2946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Scripts.Admin.TestPostApprovalAndReject@6ca0256d]" started-at="2022-03-20T01:02:32 GST" name="afterTest" finished-at="2022-03-20T01:02:32 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Scripts.Admin.TestPostApprovalAndReject -->
+      <class name="Scripts.Admin.TestAdminMyPostPage">
+        <test-method is-config="true" signature="onSetup(java.lang.String)[pri:0, instance:Scripts.Admin.TestAdminMyPostPage@28d6290]" started-at="2022-03-20T01:00:52 GST" name="onSetup" finished-at="2022-03-20T01:01:02 GST" duration-ms="9238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="VerifyEditNewPostInMyPostpage()[pri:1, instance:Scripts.Admin.TestAdminMyPostPage@28d6290]" started-at="2022-03-20T01:01:02 GST" name="VerifyEditNewPostInMyPostpage" finished-at="2022-03-20T01:01:06 GST" duration-ms="4877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditNewPostInMyPostpage -->
+        <test-method signature="VerifyEditNewPostInMyPostpageINVALIDATA()[pri:2, instance:Scripts.Admin.TestAdminMyPostPage@28d6290]" started-at="2022-03-20T01:01:06 GST" name="VerifyEditNewPostInMyPostpageINVALIDATA" finished-at="2022-03-20T01:01:12 GST" duration-ms="5781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditNewPostInMyPostpageINVALIDATA -->
+        <test-method signature="VerifyDeletePostInMyPostpage()[pri:3, instance:Scripts.Admin.TestAdminMyPostPage@28d6290]" started-at="2022-03-20T01:01:12 GST" name="VerifyDeletePostInMyPostpage" finished-at="2022-03-20T01:01:13 GST" duration-ms="1106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeletePostInMyPostpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Scripts.Admin.TestAdminMyPostPage@28d6290]" started-at="2022-03-20T01:01:13 GST" name="teardown" finished-at="2022-03-20T01:01:16 GST" duration-ms="2422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Scripts.Admin.TestAdminMyPostPage@28d6290]" started-at="2022-03-20T01:02:32 GST" name="afterTest" finished-at="2022-03-20T01:02:32 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Scripts.Admin.TestAdminMyPostPage -->
+      <class name="Scripts.Admin.TestAdminAllPostPage">
+        <test-method is-config="true" signature="onSetup(java.lang.String)[pri:0, instance:Scripts.Admin.TestAdminAllPostPage@376a312c]" started-at="2022-03-20T01:00:27 GST" name="onSetup" finished-at="2022-03-20T01:00:38 GST" duration-ms="11465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="VerifyEditNewPostInAllPostpageINVALIDATA()[pri:1, instance:Scripts.Admin.TestAdminAllPostPage@376a312c]" started-at="2022-03-20T01:00:38 GST" name="VerifyEditNewPostInAllPostpageINVALIDATA" finished-at="2022-03-20T01:00:44 GST" duration-ms="5226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditNewPostInAllPostpageINVALIDATA -->
+        <test-method signature="VerifyEditNewPostInAllPostpage()[pri:2, instance:Scripts.Admin.TestAdminAllPostPage@376a312c]" started-at="2022-03-20T01:00:44 GST" name="VerifyEditNewPostInAllPostpage" finished-at="2022-03-20T01:00:47 GST" duration-ms="2976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditNewPostInAllPostpage -->
+        <test-method signature="VerifyDeletePostInAllPostpage()[pri:3, instance:Scripts.Admin.TestAdminAllPostPage@376a312c]" started-at="2022-03-20T01:00:47 GST" name="VerifyDeletePostInAllPostpage" finished-at="2022-03-20T01:00:50 GST" duration-ms="3378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeletePostInAllPostpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Scripts.Admin.TestAdminAllPostPage@376a312c]" started-at="2022-03-20T01:00:50 GST" name="teardown" finished-at="2022-03-20T01:00:52 GST" duration-ms="2279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Scripts.Admin.TestAdminAllPostPage@376a312c]" started-at="2022-03-20T01:02:32 GST" name="afterTest" finished-at="2022-03-20T01:02:32 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Scripts.Admin.TestAdminAllPostPage -->
+      <class name="Scripts.Admin.TestAdminAddNewPost">
+        <test-method is-config="true" signature="onSetup(java.lang.String)[pri:0, instance:Scripts.Admin.TestAdminAddNewPost@1de5f0ef]" started-at="2022-03-20T00:59:47 GST" name="onSetup" finished-at="2022-03-20T01:00:02 GST" duration-ms="14334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="VerifyAddnewPostWithBlanKdATA()[pri:1, instance:Scripts.Admin.TestAdminAddNewPost@1de5f0ef]" started-at="2022-03-20T01:00:02 GST" name="VerifyAddnewPostWithBlanKdATA" finished-at="2022-03-20T01:00:06 GST" duration-ms="3883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddnewPostWithBlanKdATA -->
+        <test-method signature="VerifyAddnewPost()[pri:2, instance:Scripts.Admin.TestAdminAddNewPost@1de5f0ef]" started-at="2022-03-20T01:00:06 GST" name="VerifyAddnewPost" finished-at="2022-03-20T01:00:08 GST" duration-ms="2502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddnewPost -->
+        <test-method signature="VerifyEditNewPostInHomepageInvalidData()[pri:3, instance:Scripts.Admin.TestAdminAddNewPost@1de5f0ef]" started-at="2022-03-20T01:00:08 GST" name="VerifyEditNewPostInHomepageInvalidData" finished-at="2022-03-20T01:00:13 GST" duration-ms="4533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditNewPostInHomepageInvalidData -->
+        <test-method signature="VerifyEditNewPostInHomepage()[pri:4, instance:Scripts.Admin.TestAdminAddNewPost@1de5f0ef]" started-at="2022-03-20T01:00:13 GST" name="VerifyEditNewPostInHomepage" finished-at="2022-03-20T01:00:21 GST" duration-ms="8609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditNewPostInHomepage -->
+        <test-method signature="VerifyDeletePostInHomepage()[pri:5, instance:Scripts.Admin.TestAdminAddNewPost@1de5f0ef]" started-at="2022-03-20T01:00:21 GST" name="VerifyDeletePostInHomepage" finished-at="2022-03-20T01:00:25 GST" duration-ms="3351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeletePostInHomepage -->
+        <test-method signature="VerifyTotalElements()[pri:6, instance:Scripts.Admin.TestAdminAddNewPost@1de5f0ef]" started-at="2022-03-20T01:00:25 GST" name="VerifyTotalElements" finished-at="2022-03-20T01:00:25 GST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTotalElements -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Scripts.Admin.TestAdminAddNewPost@1de5f0ef]" started-at="2022-03-20T01:00:25 GST" name="teardown" finished-at="2022-03-20T01:00:27 GST" duration-ms="2180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Scripts.Admin.TestAdminAddNewPost@1de5f0ef]" started-at="2022-03-20T01:02:32 GST" name="afterTest" finished-at="2022-03-20T01:02:32 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Scripts.Admin.TestAdminAddNewPost -->
+    </test> <!-- Regression -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<listeners>
+<listener class-name="Scripts.Admin.ExtentReporterNG"/>
+</listeners>
+    <test thread-count="5" name="Regression">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+
+<class name="Scripts.Admin.TestAdminLogin"/>
+      <class name="Scripts.Admin.TestAdminAddNewPost"/>
+            <class name="Scripts.Admin.TestAdminAllPostPage"/>
+   <class name="Scripts.Admin.TestAdminMyPostPage"/>
+  <class name="Scripts.Admin.TestPostApprovalAndReject"/>
+
+    <class name="Scripts.Admin.AddRemoveCategory"/>
+          
+        </classes>
+    </test>
+
+</suite>
